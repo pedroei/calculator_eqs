@@ -7,6 +7,6 @@ describe('Calculator', () => {
   it(`Should return the double of ${value}`, () => {
     const result = double(value);
     assert.isNumber(result, 'Not a number!');
-    assert.equal(result, 5, 'The result does not match!');
+    assert.equal(result, 6, 'The result does not match!');
   });
 });
